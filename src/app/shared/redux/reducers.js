@@ -10,7 +10,7 @@ const user = {
     phone: '',
 }
 
-export default function usuarioReducer(state = user, action: any){
+export default function usuarioReducer(state = user, action){
     switch (action.type){
         case 'Usuario':
             return action.payload

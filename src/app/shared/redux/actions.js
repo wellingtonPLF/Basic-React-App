@@ -1,4 +1,4 @@
-export function setUser (usuario: any | null){
+export function setUser (usuario){
     return{
         type: 'Usuario',
         payload: usuario
